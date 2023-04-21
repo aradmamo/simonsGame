@@ -1,0 +1,117 @@
+.simonsGame{
+  position: relative;
+  width: 60vw;
+margin: 0 auto;
+margin-top: 40px;
+height: 750px;
+      display: grid;
+      grid-template-columns: auto auto;
+      transform:rotate(3deg);
+    }
+       
+
+.cont{
+  background-image: url('./assets/imgs/1600w-iWMZ0xN6KXs.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.content{
+  gap: 100px;
+}
+.green{
+    border: 15px solid rgb(0, 0, 0);
+      outline: 15px solid rgb(73, 68, 68);
+  background-color: rgb(49, 173, 49);
+  border-radius:100% 0px 0px 0px;
+      box-shadow: 40px 40px 35px rgba(49, 173, 49, 0.678);
+       height: 350px;
+  margin: 5px;
+  width: 30vw;
+}
+.red {
+    margin:5px;
+      box-shadow: 40px 40px 35px rgba(218, 66, 66, 0.733);
+          border: 15px solid rgb(0, 0, 0);
+            outline: 15px solid rgb(73, 68, 68);
+  background-color: rgb(218, 66, 66);
+  height: 350px;
+    width: 30vw;
+    border-radius:  0px 100% 0px 0px;
+
+}
+.blue {
+    margin: 5px;
+      box-shadow: 40px 40px 35px rgba(55, 55, 182, 0.685);
+          border: 15px solid rgb(0, 0, 0);
+            outline: 15px solid rgb(73, 68, 68);
+  background-color: rgb(55, 55, 182);
+    height: 350px;
+      width: 30vw;
+  border-radius: 0px 0px  0px 100%;
+  
+}
+.yellow {
+    margin: 5px;
+      box-shadow: 40px 40px 35px rgba(187, 187, 28, 0.712);
+        border: 15px solid rgb(0, 0, 0);
+          outline: 15px solid rgb(73, 68, 68);
+  background-color: rgb(187, 187, 28);
+    height: 350px;
+      width: 30vw;
+  border-radius: 0px  0px 100% 0px;
+}
+.highScoreSaved{
+  color:green;
+  visibility: visible;
+}
+.control{
+  width: 200px;
+  background-color: rgb(73, 68, 68);
+  height: 120px;
+  position: absolute;
+    border: 10px solid rgb(0, 0, 0);
+    outline: 10px solid rgb(73, 68, 68);
+  top: 50%;
+  left: 50%;
+  transform: rotate(3deg)translate(-50%, -50%);
+
+ 
+ 
+border-radius: 55%;
+
+text-align: center;
+}
+.level{
+  background-color:rgb(73, 68, 68);
+  color:black;
+  font-size: 20pt;
+  border-bottom: 7px solid black;
+  border-radius: 50%;
+  width: 60px;
+  margin: 0 auto;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+}
+.status{
+  color:aliceblue;
+}
+
+.startGame{
+  margin: 5px;
+  border-radius: 10px;
+    background-color: rgb(0, 255, 0);
+}
+
+.active{
+        box-shadow: 20px 20px 25px rgb(255, 255, 255);
+  filter: brightness(2);
+ 
+}
+@media (max-width:650px){
+.simonsGame{
+  width: 300px;
+}
+}
